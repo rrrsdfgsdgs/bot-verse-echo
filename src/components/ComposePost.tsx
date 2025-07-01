@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Image, Gif, MapPin, Smile, Calendar } from 'lucide-react';
+import { Image, Film, MapPin, Smile, Calendar } from 'lucide-react';
 
 interface ComposePostProps {
   onPost: (content: string) => void;
@@ -47,7 +47,7 @@ const ComposePost = ({ onPost, placeholder = "What's happening?" }: ComposePostP
                   <Image size={20} />
                 </button>
                 <button type="button" className="hover:bg-blue-400/10 p-2 rounded-full transition-colors">
-                  <Gif size={20} />
+                  <Film size={20} />
                 </button>
                 <button type="button" className="hover:bg-blue-400/10 p-2 rounded-full transition-colors">
                   <MapPin size={20} />
